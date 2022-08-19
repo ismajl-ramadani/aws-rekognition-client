@@ -10,6 +10,7 @@ import {
   PageContent,
 } from 'grommet';
 import AppBar from '../components/AppBar';
+import SelectedItems from '../view/SelectedItems';
 
 const theme = {
   global: {
@@ -51,16 +52,7 @@ export default function MainLayout(props: any) {
             </PageContent>
           </Page>
           <Collapsible direction="horizontal" open={showSidebar}>
-            <Box
-              flex
-              width="medium"
-              background="light-2"
-              elevation="small"
-              align="center"
-              justify="center"
-            >
-              sidebar
-            </Box>
+            <SelectedItems />
           </Collapsible>
         </Box>
       </Box>
