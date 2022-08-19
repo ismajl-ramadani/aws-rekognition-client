@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "case": "apps/case",
-    "case-e2e": "apps/case-e2e"
+    "case": "apps/case"
   }
 }
